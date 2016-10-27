@@ -1,0 +1,15 @@
+{
+  "name": "Recompose Template",
+  "description": "Template app for the Recompose buildpack",
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "Private-L"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/jkutner/heroku-buildpack-recompose"
+    }
+  ]
+}
